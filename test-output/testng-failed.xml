@@ -4,25 +4,25 @@
   <test thread-count="2" name="Default test-1(failed)">
     <parameter name="platform" value="1"/>
     <classes>
-      <class name="com.bs.project.translator.OpinionTests">
+      <class name="com.bs.project.translator.GoogleTests">
         <methods>
           <include name="init"/>
+          <include name="retrieveTitle"/>
           <include name="cleanUp"/>
-          <include name="retrieveTitles"/>
         </methods>
-      </class> <!-- com.bs.project.translator.OpinionTests -->
+      </class> <!-- com.bs.project.translator.GoogleTests -->
     </classes>
   </test> <!-- Default test-1(failed) -->
   <test thread-count="2" name="Default test-0(failed)">
     <parameter name="platform" value="0"/>
     <classes>
-      <class name="com.bs.project.translator.OpinionTests">
+      <class name="com.bs.project.translator.GoogleTests">
         <methods>
           <include name="init"/>
+          <include name="retrieveTitle"/>
           <include name="cleanUp"/>
-          <include name="retrieveTitles"/>
         </methods>
-      </class> <!-- com.bs.project.translator.OpinionTests -->
+      </class> <!-- com.bs.project.translator.GoogleTests -->
     </classes>
   </test> <!-- Default test-0(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

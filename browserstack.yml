@@ -11,7 +11,7 @@ accessKey: Xcsw9p8RgpyzbtgXrSvo
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: Translator
+projectName: BrowserStack Samples 
 # Set `buildName` as the name of the job / testsuite being run
 buildName: browserstack build 
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
@@ -36,7 +36,7 @@ platforms:
     browserVersion: latest
   - os: Windows
     osVersion: 10
-    browserName: Chrome
+    browserName: Edge
     browserVersion: latest
 
     
@@ -51,7 +51,7 @@ platforms:
 # Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack
 parallelsPerPlatform: 1
 
-source: java:eclipse:v1.0.10
+source: testng:sample-master:v1.1
 
 # ==========================================
 # BrowserStack Local
@@ -59,8 +59,8 @@ source: java:eclipse:v1.0.10
 # ==========================================
 # Set browserStackLocal to true if your website under test is not accessible publicly over the internet
 # Learn more about how BrowserStack Local works here -> https://www.browserstack.com/docs/automate/selenium/local-testing-introduction
-browserstackLocal: false # <boolean> (Default false)
-browserstackAutomation: true
+browserstackLocal: true # <boolean> (Default false)
+
 # Options to be passed to BrowserStack local in-case of advanced configurations
 # browserStackLocalOptions:
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
@@ -74,9 +74,7 @@ debug: false # <boolean> # Set to true if you need screenshots for every seleniu
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
-logLevel: debug
-# Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
-# Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
+
 # Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
 # Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
 testObservability: true

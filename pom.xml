@@ -22,7 +22,7 @@
 <dependency>
     <groupId>com.browserstack</groupId>
     <artifactId>browserstack-java-sdk</artifactId>
-      <version>LATEST</version>
+      <version>1.35.0</version>
             <scope>compile</scope>
 </dependency>
             <dependency>
@@ -33,31 +33,31 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.33.0</version>
+            <version>4.1.4</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-chrome-driver</artifactId>
-    <version>4.33.0</version>
+    <version>4.1.4</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-remote-driver</artifactId>
-    <version>4.33.0</version>
+    <version>4.1.4</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-firefox-driver</artifactId>
-    <version>4.33.0</version>
+    <version>4.1.4</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-edge-driver</artifactId>
-    <version>4.33.0</version>
+    <version>4.1.4</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
